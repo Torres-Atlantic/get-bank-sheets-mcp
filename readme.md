@@ -48,7 +48,6 @@ Add to your `claude_desktop_config.json`:
 - `view_usage_stats` - View usage statistics
 - `get_transactions` - Get bank transactions
 - `get_accounts` - Get bank accounts
-- `get_spreadsheets` - Get spreadsheets
 - `generate_api_key` - Generate new API key
 
 ## Available Resources
@@ -57,7 +56,6 @@ Add to your `claude_desktop_config.json`:
 - `transactions` - Transaction data
 - `api-keys` - API key management
 - `usage-stats` - Usage statistics
-- `spreadsheets` - Spreadsheet data
 - `account-status` - Connection status
 
 ## Prerequisites
