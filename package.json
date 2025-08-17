@@ -1,10 +1,10 @@
 {
-  "name": "@banksheets/mcp-server",
-  "version": "1.0.3",
+  "name": "@getbanksheets/mcp-server",
+  "version": "1.0.5",
   "description": "MCP server for Bank Sheets - access financial data through Model Context Protocol",
   "main": "dist/index.js",
   "bin": {
-    "banksheets-mcp": "dist/cli.js"
+    "getbanksheets-mcp": "dist/cli.js"
   },
   "files": [
     "dist/**/*",
@@ -29,13 +29,17 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/banksheets/mcp-server"
+    "url": "https://github.com/getbanksheets/mcp-server"
   },
   "engines": {
     "node": ">=18.0.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.3",
+    "@torres-atlantic-llc/mcp-server": "^1.0.5",
     "axios": "^1.6.0"
   },
   "devDependencies": {

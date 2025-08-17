@@ -2,6 +2,8 @@
 
 MCP (Model Context Protocol) server for Bank Sheets - access financial data through AI assistants.
 
+GetBankSheets.com operates under TorresAtlantic, LLC, which handles all billing and subscriptions.
+
 ## Installation
 
 ```bash
