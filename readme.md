@@ -73,44 +73,6 @@ Add to your `claude_desktop_config.json`:
 
 ## License
 
-MIT
+Bank Sheets MCP Server License - See LICENSE file for details.
 
-## TODO
-
-### Publishing Steps
-
-1. **Test with real API key**
-   ```bash
-   export MCP_API_KEY=your_real_api_key
-   npm test
-   ```
-
-2. **Login to npm (if not already logged in)**
-   ```bash
-   npm login
-   ```
-
-3. **Publish to npm**
-   ```bash
-   npm publish --access public
-   ```
-
-4. **Update Bank Sheets documentation**
-   - Add MCP server installation instructions
-   - Include Claude Desktop configuration example
-   - Document available tools and resources
-   - Add troubleshooting section
-
-5. **Verify installation**
-   ```bash
-   npm install @banksheets/mcp-server
-   npx banksheets-mcp --api-key=test_key
-   ```
-
-### Post-Publishing Checklist
-
-- [ ] Test package installation from npm
-- [ ] Verify CLI works with real API key
-- [ ] Add MCP server to API documentation
-- [ ] Create usage examples
-- [ ] Monitor for any issues
+This license allows use and distribution but prohibits modifications, derivative works, and reverse engineering.
