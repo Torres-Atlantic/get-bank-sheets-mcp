@@ -1,0 +1,45 @@
+{
+  "name": "@banksheets/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Bank Sheets - access financial data through Model Context Protocol",
+  "main": "dist/index.js",
+  "bin": {
+    "banksheets-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "node dist/cli.js --help"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "banking",
+    "financial-data",
+    "plaid",
+    "google-sheets"
+  ],
+  "author": "Bank Sheets Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/banksheets/mcp-server"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
